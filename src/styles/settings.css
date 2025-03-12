@@ -1,0 +1,63 @@
+.settings-form {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  content: '*';
+  color: #ff4d4f;
+  margin-right: 4px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+}
+
+.ant-slider-mark-text {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.ant-form-item {
+  margin-bottom: 24px;
+}
+
+.provider-selection {
+  margin-bottom: 16px;
+}
+
+.provider-selection .ant-select-selector {
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+  color: white !important;
+}
+
+.provider-selection .ant-select-arrow {
+  color: white !important;
+}
+
+.provider-selection .ant-select-selection-item {
+  color: white !important;
+}
+
+.ant-btn-text:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* 添加复制按钮样式 */
+.provider-selection .ant-btn-text[data-icon="复制"] {
+  border: 1px solid #1890ff;
+  margin-right: 8px;
+}
+
+/* 添加删除按钮样式 */
+.provider-selection .ant-btn-text[data-icon="删除"] {
+  border: 1px solid #ff4d4f;
+}
+
+/* 修改按钮悬停效果 */
+.provider-selection .ant-btn-text[data-icon="复制"]:hover {
+  background-color: rgba(24, 144, 255, 0.1);
+}
+
+.provider-selection .ant-btn-text[data-icon="删除"]:hover {
+  background-color: rgba(255, 77, 79, 0.1);
+} 
